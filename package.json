@@ -1,5 +1,5 @@
 {
-  "name": "massGIS",
+  "name": "massgis",
   "version": "0.0.0",
   "description": "MassGIS geocoder ====",
   "main": "index.js",
