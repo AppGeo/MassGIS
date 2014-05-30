@@ -6,7 +6,6 @@
   "dependencies": {
     "handlebars": "~2.0.0-alpha.2",
     "multiline": "~0.3.4",
-    "request": "~2.34.0",
     "sax": "~0.6.0"
   },
   "devDependencies": {},
