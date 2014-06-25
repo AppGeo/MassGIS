@@ -41,8 +41,8 @@ module.exports = function (obj, callback) {
         return callback(new Error('address not found'));
       }
       callback(null, {
-        xy: [out.X, out.Y],
-        ll: [out.LONG, out.LAT],
+        xy: [parseFloat(out.X), parseFloat(out.Y)],
+        ll: [parseFloat(out.LONG), parseFloat(out.LAT)],
         address: out.MATCHEDADDRESS
       });
     };
